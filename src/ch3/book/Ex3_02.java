@@ -3,14 +3,14 @@ package ch3.book;
 public class Ex3_02 {
 	public static void main(String[] args) {
 		int i = 5, j = 0;
-		
-		j = i++; //ÈÄÀ§Çü 
-		System.out.println("j=i++; ½ÇÇà ÈÄ, i=" + i + ", j=" + j);
-		
+
+		j = i++; //í›„ìœ„í˜• 
+		System.out.println("j=i++; ì‹¤í–‰ í›„, i=" + i + ", j=" + j);
+
 		i = 5;
 		j = 0;
-		
-		j = ++i; //ÀüÀ§Çü
-		System.out.println("j=++i; ½ÇÇà ÈÄ, i=" + i + ", j=" + j);
+
+		j = ++i; //ì „ìœ„í˜•
+		System.out.println("j=++i; ì‹¤í–‰ í›„, i=" + i + ", j=" + j);
 	}
 }

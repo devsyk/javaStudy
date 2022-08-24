@@ -5,9 +5,9 @@ public class C02Var {
 		int x = 4, y = 2;
 		int tmp;
 		
-		tmp = x;	// 1. xÀÇ °ªÀ» tmp¿¡ ÀúÀå
-		x = y;		// 2. yÀÇ °ªÀ» x¿¡ ÀúÀå
-		y = tmp; 	// 3. tmpÀÇ °ªÀ» y¿¡ ÀúÀå
+		tmp = x;	// 1. xì˜ ê°’ì„ tmpì— ì €ì¥
+		x = y;		// 2. yì˜ ê°’ì„ xì— ì €ì¥
+		y = tmp; 	// 3. tmpì˜ ê°’ì„ yì— ì €ì¥
 		
 		System.out.println("x="+x);
 		System.out.println("y="+y);

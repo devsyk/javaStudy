@@ -4,29 +4,29 @@ import java.util.Arrays;
 
 public class C01 {
 	public static void main(String[] args) {
-//		int[] score; 		// 1. ¹è¿­ score ¼±¾ğ (ÂüÁ¶º¯¼ö)
-//		score = new int[5]; // 2. ¹è¿­ÀÇ »ı¼º (int ÀúÀå°ø°£ x5)
-		
-		int[] score = new int[5]; //¹è¿­ÀÇ ¼±¾ğ°ú »ı¼º µ¿½Ã¿¡
+//		int[] score; 		// 1. ë°°ì—´ score ì„ ì–¸ (ì°¸ì¡°ë³€ìˆ˜)
+//		score = new int[5]; // 2. ë°°ì—´ì˜ ìƒì„± (int ì €ì¥ê³µê°„ x5)
+
+		int[] score = new int[5]; //ë°°ì—´ì˜ ì„ ì–¸ê³¼ ìƒì„± ë™ì‹œì—
 		score[3] = 100;
-		
+
 		System.out.println("score[0]=" + score[0]);
 		System.out.println("score[1]=" + score[1]);
 		System.out.println("score[2]=" + score[2]);
 		System.out.println("score[3]=" + score[3]);
 		System.out.println("score[4]=" + score[4]);
-		
+
 		int value = score[3];
 		System.out.println("value = " + value);
-		
 
-		int[] arr = new int[10]; // ±æÀÌ°¡ 10ÀÎ ¹è¿­ arr
-		System.out.println("arr.length = " + arr.length); //¹è¿­ÀÇ ±æÀÌ
-		
+
+		int[] arr = new int[10]; // ê¸¸ì´ê°€ 10ì¸ ë°°ì—´ arr
+		System.out.println("arr.length = " + arr.length); //ë°°ì—´ì˜ ê¸¸ì´
+
 		for(int i=0; i<arr.length; i++) {
 			System.out.println("arr[" + i + "] = " + arr[i]);
 		}
-		
+
 		int[] iArr = {100, 95, 80, 70, 60};
 		for(int i=0; i<iArr.length; i++) {
 			System.out.println(iArr[i]);

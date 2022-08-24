@@ -4,27 +4,27 @@ import java.util.Scanner;
 
 public class Pr4_10 {
 	public static void main(String[] args) {
-		//Q. 1~100»çÀÌÀÇ ¼ö ¸ÂÃß±â - ¸î¹ø¸¸¿¡ ¼ıÀÚ¸¦ ¸ÂÃè´ÂÁö 
+		//Q. 1~100ì‚¬ì´ì˜ ìˆ˜ ë§ì¶”ê¸° - ëª‡ë²ˆë§Œì— ìˆ«ìë¥¼ ë§ì·„ëŠ”ì§€ 
 		Scanner scanner = new Scanner(System.in);
 		int answer = (int)(Math.random()*100)+1;
 		int input = 0;
 		int count = 0;
 
 		while(true) {
-		    count++;
-		    System.out.print("1°ú 100»çÀÌÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");			
+			count++;
+		    System.out.print("1ê³¼ 100ì‚¬ì´ì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");			
 		    input = scanner.nextInt();
 
 		    if(answer > input) {
-		        System.out.println("´õ Å« ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		        System.out.println("ë” í° ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		    } else if(answer < input) {
-		        System.out.println("´õ ÀÛÀº ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		        System.out.println("ë” ì‘ì€ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		    } else {
-		        System.out.println("¸ÂÃè½À´Ï´Ù.");
+		        System.out.println("ë§ì·„ìŠµë‹ˆë‹¤.");
 		        break;
 		    }
 		}
-		System.out.println("½ÃµµÈ½¼ö´Â " + count + "¹øÀÔ´Ï´Ù.");
+		System.out.println("ì‹œë„íšŸìˆ˜ëŠ” " + count + "ë²ˆì…ë‹ˆë‹¤.");
 		
 	}
 }

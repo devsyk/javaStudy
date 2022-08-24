@@ -2,28 +2,28 @@ package ch4;
 
 public class Ex4_11 {
 	public static void main(String[] args) {
-		// Á¤»ç°¢Çü¸¸µé±â(5Çà 10¿­)
-		for(int i = 1; i <= 5; i++) { //5¹ø Ãâ·°
+		// ì •ì‚¬ê°í˜•ë§Œë“¤ê¸°(5í–‰ 10ì—´)
+		for(int i = 1; i <= 5; i++) { //5ë²ˆ ì¶œëŸ­
 			for(int j = 1; j <= 10; j++) { 
-				System.out.print("*"); //ÇÑÁÙ¿¡ * 10°³ Ãâ·Â
+				System.out.print("*"); //í•œì¤„ì— * 10ê°œ ì¶œë ¥
 			}
-			System.out.println(); //ÁÙ¹Ù²Þ
+			System.out.println(); //ì¤„ë°”ê¿ˆ
 		}
 		System.out.println();	
-		
-		// »ï°¢Çü ¸¸µé±â
-		for(int i = 1; i <= 5; i++) { //5¹ø Ãâ·Â
+
+		// ì‚¼ê°í˜• ë§Œë“¤ê¸°
+		for(int i = 1; i <= 5; i++) { //5ë²ˆ ì¶œë ¥
 			for(int j = 1; j <= i; j++) {
-				System.out.print("*"); //1 ~ 5°³ Ãâ·Â
+				System.out.print("*"); //1 ~ 5ê°œ ì¶œë ¥
 			}
-			System.out.println(); //ÁÙ¹Ù²Þ
+			System.out.println(); //ì¤„ë°”ê¿ˆ
 		}
 		System.out.println();	
-		for(int i = 5; i >= 1; i--) { //5¹ø Ãâ·Â
+		for(int i = 5; i >= 1; i--) { //5ë²ˆ ì¶œë ¥
 			for(int j = i; j >= 1; j--) {
-				System.out.print("*"); //5 ~ 1°³ Ãâ·Â
+				System.out.print("*"); //5 ~ 1ê°œ ì¶œë ¥
 			}
-			System.out.println(); //ÁÙ¹Ù²Þ
+			System.out.println(); //ì¤„ë°”ê¿ˆ
 		}
 	}
 }

@@ -2,12 +2,12 @@ package ch4;
 
 public class Ex4_12 {
 	public static void main(String[] args) {
-		int i = 5; //¹İº¹ÇÒ È½¼ö
-		
-		while(i-- != 0) { //4ºÎÅÍ ½ÃÀÛÇØ¼­ 0ÀÌ ³ª¿Ã¶§±îÁö ¹İº¹
+		int i = 5; //ë°˜ë³µí•  íšŸìˆ˜
+
+		while(i-- != 0) { //4ë¶€í„° ì‹œì‘í•´ì„œ 0ì´ ë‚˜ì˜¬ë•Œê¹Œì§€ ë°˜ë³µ
 			System.out.println(i + " - I can do it.");
 		}
-		
+
 //		while(i != 0) {
 //			i--;
 //			System.out.println(i + " - I can do it.");

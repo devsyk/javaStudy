@@ -4,32 +4,32 @@ public class C03Var {
 	public static void main(String[] args) {
 		int score = 100;
 		score = 200;
-		
-		// »ó¼ö : º¯¼ö Å¸ÀÔ ¾Õ¿¡ final Ãß°¡
-		// Àç¼±¾ğ ºÒ°¡
+
+		// ìƒìˆ˜ : ë³€ìˆ˜ íƒ€ì… ì•ì— final ì¶”ê°€
+		// ì¬ì„ ì–¸ ë¶ˆê°€
 		final int score2 = 100;
 //		score2 = 200;
-		
+
 		boolean power = false;
-		
+
 		byte b = 127;	// -128 ~ 127
-		
-		int oct = 010; 	// 8Áø¼ö, 10Áø¼ö·Î 8
-		int hex = 0x10;	// 16Áø¼ö, 10Áø¼ö·Î 16
-		
-		long l = 10_000_000_000L; // LÃß°¡
-		
-		float f = 3.14f;	// FÃß°¡
+
+		int oct = 010; 	// 8ì§„ìˆ˜, 10ì§„ìˆ˜ë¡œ 8
+		int hex = 0x10;	// 16ì§„ìˆ˜, 10ì§„ìˆ˜ë¡œ 16
+
+		long l = 10_000_000_000L; // Lì¶”ê°€
+
+		float f = 3.14f;	// Fì¶”ê°€
 		double d = 3.14f;
-		
+
 		char ch = 'A';
 		int i = 'A';
-		
-		String str = ""; // ºó¹®ÀÚ¿­
+
+		String str = ""; // ë¹ˆë¬¸ìì—´
 		String str2 = "ABCD";
 		String str3 = "123";
 		String str4 = str2 + str3;
-		
+
 		System.out.println(10.); //10.0
 		System.out.println(.10); //0.1
 		System.out.println(10f); //10.0

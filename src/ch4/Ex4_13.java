@@ -2,13 +2,13 @@ package ch4;
 
 public class Ex4_13 {
 	public static void main(String[] args) {
-		// 1ºÎÅÍ ¸î±îÁö ´õÇØ¾ß 100À» ³ÑÁö ¾Ê´ÂÁö
+		// 1ë¶€í„° ëª‡ê¹Œì§€ ë”í•´ì•¼ 100ì„ ë„˜ì§€ ì•ŠëŠ”ì§€
 		int sum = 0;
 		int i = 0;
-		
+
 		while(sum <= 100) {
 			System.out.printf("%d - %d%n", i, sum);
-			sum += ++i; //i¸¦ °è¼Ó 1¾¿ Áõ°¡½ÃÅ°¸é¼­ sum¿¡ Ãß°¡
+			sum += ++i; //ië¥¼ ê³„ì† 1ì”© ì¦ê°€ì‹œí‚¤ë©´ì„œ sumì— ì¶”ê°€
 		}
 	}
 }

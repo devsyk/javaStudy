@@ -2,11 +2,11 @@ package ch3.book.Exercise;
 
 public class Pr3_4 {
 	public static void main(String[] args) {
-		// Q. »ç°ú¸¦ ´ã´Âµ¥ ÇÊ¿äÇÑ ¹Ù±¸´Ï ¼ö ±¸ÇÏ±â
-		int numOfAppels = 123; //»ç°úÀÇ °³¼ö
-		int sizeOfBucket = 10; //¹Ù±¸´ÏÀÇ Å©±â(¹Ù±¸´Ï¿¡ ´ãÀ» ¼ö ÀÖ´Â »ç°úÀÇ °³¼ö)
+		// Q. ì‚¬ê³¼ë¥¼ ë‹´ëŠ”ë° í•„ìš”í•œ ë°”êµ¬ë‹ˆ ìˆ˜ êµ¬í•˜ê¸°
+		int numOfAppels = 123; //ì‚¬ê³¼ì˜ ê°œìˆ˜
+		int sizeOfBucket = 10; //ë°”êµ¬ë‹ˆì˜ í¬ê¸°(ë°”êµ¬ë‹ˆì— ë‹´ì„ ìˆ˜ ìˆëŠ” ì‚¬ê³¼ì˜ ê°œìˆ˜)
 		int numOfBucket = numOfAppels/sizeOfBucket + (numOfAppels%sizeOfBucket > 0 ? 1 : 0) ;
-		
-		System.out.println("ÇÊ¿äÇÑ ¹Ù±¸´ÏÀÇ ¼ö = " + numOfBucket); //13
+
+		System.out.println("í•„ìš”í•œ ë°”êµ¬ë‹ˆì˜ ìˆ˜ = " + numOfBucket); //13
 	}
 }

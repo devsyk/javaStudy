@@ -3,9 +3,9 @@ package ch2.book;
 public class Ex2_1 {
 	public static void main(String[] args) {
 		//sysout ctrl + space 
-		//ctrl + alt + ¡è¡é : ÇÑÁÙ º¹»ç
-		// print() : Ãâ·Â ÈÄ ÁÙ¹Ù²Þ ¾ÈÇÔ
-		// println() : Ãâ·Â ÈÄ ÁÙ¹Ù²ÞÇÔ		
+		//ctrl + alt + â†‘â†“ : í•œì¤„ ë³µì‚¬
+		// print() : ì¶œë ¥ í›„ ì¤„ë°”ê¿ˆ ì•ˆí•¨
+		// println() : ì¶œë ¥ í›„ ì¤„ë°”ê¿ˆí•¨			
 		System.out.println("Hello");
 		System.out.println("Hello");
 		System.out.println("Hello");

@@ -2,17 +2,17 @@ package ch4;
 
 public class Ex4_16 {
 	public static void main(String[] args) {
-		// Q. ¼ýÀÚ¸¦ 1ºÎÅÍ °è¼Ó ´õÇØ ¸î±îÁö ´õÇÏ¸é ÇÕÀÌ 100À» ³Ñ´ÂÁö
+		// Q. ìˆ«ìžë¥¼ 1ë¶€í„° ê³„ì† ë”í•´ ëª‡ê¹Œì§€ ë”í•˜ë©´ í•©ì´ 100ì„ ë„˜ëŠ”ì§€
 		int sum = 0;
 		int i = 0;
-		
+
 		while(true) {
 			if(sum > 100)
-				break; //while¹® Á¾·á
+				break; //whileë¬¸ ì¢…ë£Œ
 			++i;
 			sum += i;
 		}
-		
+
 		System.out.println("i = " + i);
 		System.out.println("sum = " + sum);
 	}

@@ -2,7 +2,7 @@ package ch3.book;
 
 public class Ex3_11 {
 	public static void main(String[] args) {
-		// Math.round() : ¹İ¿Ã¸²
+		// Math.round() : ï¿½İ¿Ã¸ï¿½
 		double pi = 3.141592;
 		
 		System.out.println(pi);
@@ -17,8 +17,8 @@ public class Ex3_11 {
 		System.out.println(shortPi);
 		System.out.println("=============");
 		
-		// 3.141À» ¾òÀ¸·Á¸é?
+		// 3.141ì„ ì–»ìœ¼ë ¤ë©´?
 		System.out.println((int)(pi*1000)/1000);
-		System.out.println((int)(pi*1000)/1000.0); //½Ç¼ö·Î ³ª´²¾ß ¼Ò¼öÁ¡±îÁö ³ª¿È
+		System.out.println((int)(pi*1000)/1000.0); //ì‹¤ìˆ˜ë¡œ ë‚˜ëˆ ì•¼ ì†Œìˆ˜ì ê¹Œì§€ ë‚˜ì˜´
 	}
 }

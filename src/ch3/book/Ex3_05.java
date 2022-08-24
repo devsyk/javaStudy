@@ -5,6 +5,6 @@ public class Ex3_05 {
 		double d = 85.4;
 		int score = (int)d;
 		System.out.println("score= "+score);
-		System.out.println("d= "+d); //Çüº¯È¯ ÈÄ¿¡µµ ÇÇ¿¬»êÀÚ¿¡´Â º¯È­¾øÀ½
+		System.out.println("d= "+d); //í˜•ë³€í™˜ í›„ì—ë„ í”¼ì—°ì‚°ìì—ëŠ” ë³€í™”ì—†ìŒ
 	}
 }

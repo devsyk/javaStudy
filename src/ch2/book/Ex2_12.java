@@ -4,15 +4,15 @@ public class Ex2_12 {
 	public static void main(String[] args) {
 		String str = "3";
 		
-		//¹®ÀÚ¿­ > ¹®ÀÚ > ¼ıÀÚ
+		//ë¬¸ìì—´ > ë¬¸ì > ìˆ«ì
 		System.out.println(str.charAt(0) - '0'); // 3
-		//¹®ÀÚ > ¼ıÀÚ
+		//ë¬¸ì > ìˆ«ì
 		System.out.println('3' - '0' + 1); // 4
-		//¹®ÀÚ¿­ > ¼ıÀÚ
+		//ë¬¸ìì—´ > ìˆ«ì
 		System.out.println(Integer.parseInt("3") + 1); //4
-		//¹®ÀÚ¿­
+		//ë¬¸ìì—´
 		System.out.println("3" + 1); // 31
-		//¼ıÀÚ > ¹®ÀÚ
+		//ìˆ«ì > ë¬¸ì
 		System.out.println((char)(3 + '0')); //'3'
 		
 		

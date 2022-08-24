@@ -4,28 +4,28 @@ import java.util.Scanner;
 
 public class Ex4_14 {
 	public static void main(String[] args) {
-		// Q. ¼ıÀÚ¸¦ ÀÔ·Â¹Ş¾Æ¼­ °¢ ÀÚ¸®ÀÇ ¼öµéÀÇ ÇÕ ±¸ÇÏ±â
+		// Q. ìˆ«ìë¥¼ ì…ë ¥ë°›ì•„ì„œ ê° ìë¦¬ì˜ ìˆ˜ë“¤ì˜ í•© êµ¬í•˜ê¸°
 		int num = 0, sum = 0;
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.(¿¹:12345) > ");
-		
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.(ì˜ˆ:12345) > ");
+
 		Scanner scanner = new Scanner(System.in);
-		String tmp = scanner.nextLine(); //È­¸éÀ» ÅëÇØ ÀÔ·Â¹ŞÀº ³»¿ëÀ» tmp¿¡ ÀúÀå
-		num = Integer.parseInt(tmp); //ÀÔ·Â¹ŞÀº ¹®ÀÚ¿­(tmp)À» ¼ıÀÚ·Î º¯È¯
-			
-		//10À¸·Î ³ª¸ÓÁö ¿¬»êÀ» ÇÏ¸é ¸¶Áö¸· ÀÚ¸®¸¦ ¾ò´Â´Ù.
+		String tmp = scanner.nextLine(); //í™”ë©´ì„ í†µí•´ ì…ë ¥ë°›ì€ ë‚´ìš©ì„ tmpì— ì €ì¥
+		num = Integer.parseInt(tmp); //ì…ë ¥ë°›ì€ ë¬¸ìì—´(tmp)ì„ ìˆ«ìë¡œ ë³€í™˜
+
+		//10ìœ¼ë¡œ ë‚˜ë¨¸ì§€ ì—°ì‚°ì„ í•˜ë©´ ë§ˆì§€ë§‰ ìë¦¬ë¥¼ ì–»ëŠ”ë‹¤.
 //		System.out.println(12345%10);
-		
+
 //		for(num = 12345; num > 0; num = num / 10) {
 //			System.out.println(num + " > " + num%10);
 //			sum += num%10;
 //		}
-		
+
 		while(num!=0) {
-			sum += num%10; //10À¸·Î ³ª´« ³ª¸ÓÁö¸¦ sum¿¡ ´õÇÔ
+			sum += num%10; //10ìœ¼ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ë¥¼ sumì— ë”í•¨
 			//System.out.println("sum = " + sum + " / num = " + num);
-			num /= 10; //10À¸·Î ³ª´« °ªÀ» ´Ù½Ã num¿¡ ÀúÀå - °¢ ÀÚ¸®¼ö È®ÀÎÀ§ÇØ
+			num /= 10; //10ìœ¼ë¡œ ë‚˜ëˆˆ ê°’ì„ ë‹¤ì‹œ numì— ì €ì¥ - ê° ìë¦¬ìˆ˜ í™•ì¸ìœ„í•´
 		}
-		
-		System.out.println("°¢ ÀÚ¸®¼öÀÇ ÇÕ : " + sum);
+
+		System.out.println("ê° ìë¦¬ìˆ˜ì˜ í•© : " + sum);
 	}
 }

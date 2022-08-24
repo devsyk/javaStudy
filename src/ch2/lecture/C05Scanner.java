@@ -1,22 +1,22 @@
 package ch2.lecture;
 
-import java.util.Scanner; // 1. import¹® Ãß°¡
+import java.util.Scanner; // 1. importë¬¸ ì¶”ê°€
 
 public class C05Scanner {
 	public static void main(String[] args) {
-		// È­¸é¿¡¼­ ÀÔ·Â¹ŞÀº 
-		
-		// 2. ScannerÅ¬·¡½ºÀÇ °´Ã¼ »ı¼º
+		// í™”ë©´ì—ì„œ ì…ë ¥ë°›ì€ 
+
+		// 2. Scannerí´ë˜ìŠ¤ì˜ ê°ì²´ ìƒì„±
 		Scanner scanner = new Scanner(System.in);
-		
+
 //		int num = scanner.nextInt();
 //		int num2 = scanner.nextInt();
 //		System.out.println(num);
 //		System.out.println(num2);
-		
+
 		String input = scanner.nextLine();
 		int num = Integer.parseInt(input);
-		
+
 		System.out.println(num);
 	}
 }

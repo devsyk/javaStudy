@@ -2,7 +2,7 @@ package ch4.exercise;
 
 public class Pr4_09 {
 	public static void main(String[] args) {
-		//Q. intÇü º¯¼ö numÀÇ °¢ ÀÚ¸® ÇÕÀ» ´õÇÑ °á°ú Ãâ·Â
+		//Q. intí˜• ë³€ìˆ˜ numì˜ ê° ìë¦¬ í•©ì„ ë”í•œ ê²°ê³¼ ì¶œë ¥
 		int num = 12345;
 		int sum = 0;		
 		while(num != 0) {

@@ -6,12 +6,12 @@ public class Ex4_05 {
 	public static void main(String[] args) {
 		int score = 0;
 		char grade = ' ', opt = 0;
-		
+
 		Scanner scanner = new Scanner(System.in);
-		score = scanner.nextInt(); //È­¸éÀ» ÅëÇØ ÀÔ·Â¹ÞÀº Á¡¼ö¸¦ score¿¡ ÀúÀå
-		
-		System.out.println("´ç½ÅÀÇ Á¡¼ö´Â %ÀÔ´Ï´Ù.%n" + score);
-		
+		score = scanner.nextInt(); //í™”ë©´ì„ í†µí•´ ìž…ë ¥ë°›ì€ ì ìˆ˜ë¥¼ scoreì— ì €ìž¥
+
+		System.out.println("ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” %ìž…ë‹ˆë‹¤.%n" + score);
+
 		if(score>=90) {
 			grade = 'A';
 			if(score>=98) {

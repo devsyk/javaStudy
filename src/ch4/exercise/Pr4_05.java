@@ -2,7 +2,7 @@ package ch4.exercise;
 
 public class Pr4_05 {
 	public static void main(String[] args) {
-		//Q. ´ÙÀ½ÀÇ for¹®À» while¹®À¸·Î º¯°æ
+		//Q. ë‹¤ìŒì˜ forë¬¸ì„ whileë¬¸ìœ¼ë¡œ ë³€ê²½
 		for(int i = 0; i <= 10; i++) {
 		    for(int j = 0; j <= i; j++) {
 		        System.out.print("*");
@@ -12,30 +12,30 @@ public class Pr4_05 {
 
 		System.out.println("==================");
 
-		// >> while¹®		
+		// >> whileë¬¸		
 		int n = 0;
 		int m = 0;
-		while(n < 10) {	//10¹ø ¹İº¹			
-		    n++; //10ÁÙ
+		while(n < 10) {	//10ë²ˆ ë°˜ë³µ			
+		    n++; //10ì¤„
 		    while(m < n) {
-		        m++; //* °³¼ö	
+		        m++; //* ê°œìˆ˜	
 		        System.out.print("*");
 		    }
-		    m = 0; //* °³¼ö ÃÊ±âÈ­
+		    m = 0; //* ê°œìˆ˜ ì´ˆê¸°í™”
 		    System.out.println();
 		}
 		
 		
-		//´Ù¸¥ Ç®ÀÌ 
-		// >> while¹®		
+		//ë‹¤ë¥¸ í’€ì´ 
+		// >> whileë¬¸		
 		int i = 0;
-		while(i <= 10) { //10¹ø ¹İº¹			
-		    int j = 0; //ÇÑÁÙ¿¡ ÀÖ´Â *°³¼ö ÃÊ±âÈ­
+		while(i <= 10) { //10ë²ˆ ë°˜ë³µ			
+		    int j = 0; //í•œì¤„ì— ìˆëŠ” *ê°œìˆ˜ ì´ˆê¸°í™”
 		    while(j < i) {
 		        System.out.print("*");
-		        j++; //* °³¼ö	
+		        j++; //* ê°œìˆ˜	
 		    }
-		    i++; //10ÁÙ
+		    i++; //10ì¤„
 		    System.out.println();
 		}
 		

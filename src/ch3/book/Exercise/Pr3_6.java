@@ -2,12 +2,12 @@ package ch3.book.Exercise;
 
 public class Pr3_6 {
 	public static void main(String[] args) {
-		// Q. È­¾¾¸¦ ¼·¾¾·Î º¯È¯ (°ø½Ä: C = 5/9 * (F - 32))
-		// - ¼Ò¼öÁ¡ ¼ÂÂ°ÀÚ¸®¿¡¼­ ¹İ¿Ã¸²(Math.round()»ç¿ëX)
+		// Q. í™”ì”¨ë¥¼ ì„­ì”¨ë¡œ ë³€í™˜ (ê³µì‹: C = 5/9 * (F - 32))
+		// - ì†Œìˆ˜ì  ì…‹ì§¸ìë¦¬ì—ì„œ ë°˜ì˜¬ë¦¼(Math.round()ì‚¬ìš©X)
 		int fahrenheit = 100;	
 		// A.
 		float celcius = (int)((5/9f * (fahrenheit-32))*100 + 0.5) / 100f;
-		
+
 		System.out.println("Fahrenheit: " + fahrenheit);
 		System.out.println("Celcius: " + celcius);
 	}

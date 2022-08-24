@@ -4,31 +4,31 @@ import java.util.Scanner;
 
 public class Ex4_18 {
 	public static void main(String[] args) {
-		// Q. ¸Ş´º ¼±ÅÃ
+		// Q. ë©”ë‰´ ì„ íƒ
 		int menu = 0;
 		int num = 0;
-		
+
 		Scanner scanner = new Scanner(System.in);
-		
+
 		while(true) {
 			System.out.println("(1) square");
 			System.out.println("(2) square root");
 			System.out.println("(3) log");
-			System.out.print("¿øÇÏ´Â ¸Ş´º(1~3)¸¦ ¼±ÅÃÇÏ¼¼¿ä.(Á¾·á: 0) > ");
-			
-			String tmp = scanner.nextLine(); //ÀÔ·Â¹ŞÀº °ª tmp¿¡ ÀúÀå
-			menu = Integer.parseInt(tmp); //¼ıÀÚ·Î º¯È¯
-			
+			System.out.print("ì›í•˜ëŠ” ë©”ë‰´(1~3)ë¥¼ ì„ íƒí•˜ì„¸ìš”.(ì¢…ë£Œ: 0) > ");
+
+			String tmp = scanner.nextLine(); //ì…ë ¥ë°›ì€ ê°’ tmpì— ì €ì¥
+			menu = Integer.parseInt(tmp); //ìˆ«ìë¡œ ë³€í™˜
+
 			if(menu == 0) {
-				System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù");
-				break; //¹İº¹¹® Á¾·á
+				System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤");
+				break; //ë°˜ë³µë¬¸ ì¢…ë£Œ
 			} else if(!(1 <= menu && menu <=3)) {
-				System.out.println("¸Ş´º¸¦ Àß¸ø ¼±ÅÃÇÏ¼Ì½À´Ï´Ù.(Á¾·á´Â 0)");
-				continue; //¹İº¹¹® Ã³À½À¸·Î
+				System.out.println("ë©”ë‰´ë¥¼ ì˜ëª» ì„ íƒí•˜ì…¨ìŠµë‹ˆë‹¤.(ì¢…ë£ŒëŠ” 0)");
+				continue; //ë°˜ë³µë¬¸ ì²˜ìŒìœ¼ë¡œ
 			}
-			
-			System.out.println("¼±ÅÃÇÏ½Å ¸Ş´º´Â " + menu + "¹øÀÔ´Ï´Ù.");
-			
+
+			System.out.println("ì„ íƒí•˜ì‹  ë©”ë‰´ëŠ” " + menu + "ë²ˆì…ë‹ˆë‹¤.");
+
 		}
 
 	}

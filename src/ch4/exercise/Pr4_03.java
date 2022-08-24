@@ -2,18 +2,18 @@ package ch4.exercise;
 
 public class Pr4_03 {
 	public static void main(String[] args) {
-		//Q. 1+(1+2)+(1+2+3)+(1+2+3+4)+...+(1+2+3+...+10)ÀÇ °á°ú °è»ê
+		//Q. 1+(1+2)+(1+2+3)+(1+2+3+4)+...+(1+2+3+...+10)ì˜ ê²°ê³¼ ê³„ì‚°
 		int sum = 0;
 		for(int i=0; i<10; i++) {
 		    for(int j=0; j<=i; j++) {
 		        sum += (j+1);				
 		    }
 		}
-		System.out.println("°è»ê°á°ú : " + sum);
+		System.out.println("ê³„ì‚°ê²°ê³¼ : " + sum);
 		
 		
-		//´Ù¸¥ Ç®ÀÌ
-		//Q. 1+(1+2)+(1+2+3)+(1+2+3+4)+...+(1+2+3+...+10)ÀÇ °á°ú °è»ê
+		//ë‹¤ë¥¸ í’€ì´
+		//Q. 1+(1+2)+(1+2+3)+(1+2+3+4)+...+(1+2+3+...+10)ì˜ ê²°ê³¼ ê³„ì‚°
 		int sum1 = 0;
 		int totalSum = 0;
 
@@ -21,12 +21,12 @@ public class Pr4_03 {
 		    sum1 += i;
 		    totalSum += sum1;
 		}
-		System.out.println("°è»ê°á°ú : " + totalSum);
+		System.out.println("ê³„ì‚°ê²°ê³¼ : " + totalSum);
 		
 		
 
 
-		//ÇØ´ç ½Ä ±×´ë·Î Ãâ·ÂÇØº¸±â		
+		//í•´ë‹¹ ì‹ ê·¸ëŒ€ë¡œ ì¶œë ¥í•´ë³´ê¸°	
 		for(int i=0; i<10; i++) {
 		    System.out.print("(");
 		    for(int j=0; j<=i; j++) {

@@ -9,23 +9,23 @@ public class Ex5_01 {
 //		int[] iArr3 = new int[] {100, 95, 80, 70, 60};
 		int[] iArr3 = {100, 95, 80, 70, 60};
 		char[] chArr = {'a', 'b', 'c', 'd'};
-		
-		// 1~10 ¼ıÀÚ¸¦ ¼ø¼­´ë·Î ¹è¿­ iArr1¿¡ ÀúÀå
+
+		// 1~10 ìˆ«ìë¥¼ ìˆœì„œëŒ€ë¡œ ë°°ì—´ iArr1ì— ì €ì¥
 		for(int i=0; i<iArr1.length; i++) {
 			iArr1[i] = i + 1; 
 		}
-		
-		// 1~10 °ªÀ» ¹è¿­ iArr2¿¡ ÀúÀå
+
+		// 1~10 ê°’ì„ ë°°ì—´ iArr2ì— ì €ì¥
 		for(int i=0; i<iArr2.length; i++) {
 			iArr2[i] = (int)(Math.random()*10)+1;
 		}
-		
-		// ¹è¿­¿¡ ÀúÀåµÈ °ªµéÀ» Ãâ·Â
+
+		// ë°°ì—´ì— ì €ì¥ëœ ê°’ë“¤ì„ ì¶œë ¥
 		for(int i=0; i<iArr1.length; i++) {
 			System.out.println(iArr1[i] + ",");
 		}
 		System.out.println();
-		
+
 		System.out.println(Arrays.toString(iArr2));
 		System.out.println(Arrays.toString(iArr3));
 		System.out.println(Arrays.toString(chArr));

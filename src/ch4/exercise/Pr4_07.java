@@ -2,27 +2,27 @@ package ch4.exercise;
 
 public class Pr4_07 {
 	public static void main(String[] args) {
-		//Q. ¼ıÀÚ·Î ÀÌ·ç¾îÁø ¹®ÀÚ¿­ strÀÇ °¢ÀÚ¸® ÇÕÀ» ´õÇÑ °á°ú Ãâ·Â
+		//Q. ìˆ«ìë¡œ ì´ë£¨ì–´ì§„ ë¬¸ìì—´ strì˜ ê°ìë¦¬ í•©ì„ ë”í•œ ê²°ê³¼ ì¶œë ¥
 		String str = "12345";
 		int sum = 0;
-		int num = Integer.parseInt(str); //Á¤¼ö·Î º¯È¯
+		int num = Integer.parseInt(str); //ì •ìˆ˜ë¡œ ë³€í™˜
 		while(num != 0) {
-		    sum += num%10; //ÇØ´çÀÚ¸®¼öÀÇ °ª ÀúÀå
-		    num /= 10;	//´ÙÀ½ ÀÚ¸®¼ö È®ÀÎ		
+		    sum += num%10; //í•´ë‹¹ìë¦¬ìˆ˜ì˜ ê°’ ì €ì¥
+		    num /= 10;	//ë‹¤ìŒ ìë¦¬ìˆ˜ í™•ì¸		
 		}
-		System.out.println("°¢ ÀÚ¸®ÀÇ ÃÑÇÕ = " + sum); //15
+		System.out.println("ê° ìë¦¬ì˜ ì´í•© = " + sum); //15
 		
 		
-		//´Ù¸¥ Ç®ÀÌ - ¹®ÀÚ¿­ ±×´ë·Î »ç¿ë
-		//Q. ¼ıÀÚ·Î ÀÌ·ç¾îÁø ¹®ÀÚ¿­ strÀÇ °¢ÀÚ¸® ÇÕÀ» ´õÇÑ °á°ú Ãâ·Â
+		//ë‹¤ë¥¸ í’€ì´ - ë¬¸ìì—´ ê·¸ëŒ€ë¡œ ì‚¬ìš©
+		//Q. ìˆ«ìë¡œ ì´ë£¨ì–´ì§„ ë¬¸ìì—´ strì˜ ê°ìë¦¬ í•©ì„ ë”í•œ ê²°ê³¼ ì¶œë ¥
 		String str1 = "12345";
 		int sum1 = 0;
 		for(int i = 0; i < str1.length(); i++) {
-		    //System.out.println(str1.charAt(i)); //°¢ ¹®ÀÚ Ãâ·Â		
-		    //System.out.println(str1.charAt(i)-'0'); // -'0' : ¼ıÀÚ·Î º¯È¯
+		    //System.out.println(str1.charAt(i)); //ê° ë¬¸ì ì¶œë ¥		
+		    //System.out.println(str1.charAt(i)-'0'); // -'0' : ìˆ«ìë¡œ ë³€í™˜
 		    sum1 += str1.charAt(i)-'0';
 		}
-		System.out.println("°¢ ÀÚ¸®ÀÇ ÃÑÇÕ = " + sum1); //15
+		System.out.println("ê° ìë¦¬ì˜ ì´í•© = " + sum1); //15
 		
 	}
 }

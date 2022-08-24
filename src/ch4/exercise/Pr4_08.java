@@ -2,7 +2,7 @@ package ch4.exercise;
 
 public class Pr4_08 {
 	public static void main(String[] args) {
-		//Q. 1ºÎÅÍ 6 »çÀÌÀÇ ÀÓÀÇÀÇ Á¤¼ö¸¦ º¯¼ö value¿¡ ÀúÀåÇÏ´Â ÄÚµå
+		//Q. 1ë¶€í„° 6 ì‚¬ì´ì˜ ì„ì˜ì˜ ì •ìˆ˜ë¥¼ ë³€ìˆ˜ valueì— ì €ì¥í•˜ëŠ” ì½”ë“œ
 		int value = (int)(Math.random()*6)+1;
 		System.out.println("value = " + value);
 		

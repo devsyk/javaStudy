@@ -2,8 +2,8 @@ package ch3.book.Exercise;
 
 public class Pr3_5 {
 	public static void main(String[] args) {
-		// Q. º¯¼ö num¿¡ µû¶ó '¾ç¼ö','À½¼ö','0' Ãâ·ÂÇÏ´Â ÄÚµå
+		// Q. ë³€ìˆ˜ numì— ë”°ë¼ 'ì–‘ìˆ˜','ìŒìˆ˜','0' ì¶œë ¥í•˜ëŠ” ì½”ë“œ
 		int num = 10;
-		System.out.println(num == 0 ? 0 : (num > 0 ? "¾ç¼ö" : "À½¼ö"));
+		System.out.println(num == 0 ? 0 : (num > 0 ? "ì–‘ìˆ˜" : "ìŒìˆ˜"));
 	}
 }

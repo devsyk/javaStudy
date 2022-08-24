@@ -2,7 +2,7 @@ package ch4.exercise;
 
 public class Pr4_06 {
 	public static void main(String[] args) {
-		//Q. µÎ°³ÀÇ ÁÖ»çÀ§¸¦ ´øÁ³À» ¶§, ´«ÀÇ ÇÕÀÌ 6ÀÌ µÇ´Â ¸ğµç °æ¿ìÀÇ ¼ö Ãâ·Â		
+		//Q. ë‘ê°œì˜ ì£¼ì‚¬ìœ„ë¥¼ ë˜ì¡Œì„ ë•Œ, ëˆˆì˜ í•©ì´ 6ì´ ë˜ëŠ” ëª¨ë“  ê²½ìš°ì˜ ìˆ˜ ì¶œë ¥	
 		for(int i = 1; i <= 6; i++) {
 		    for(int j = 1; j <= 6; j++) {
 		        if(i + j == 6) {
